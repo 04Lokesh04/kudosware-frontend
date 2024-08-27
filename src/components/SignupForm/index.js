@@ -18,7 +18,7 @@ const Signup = () => {
     formData.append('resume', resume)
 
     try{
-      const url='http://localhost:5000/signup'
+      const url='https://signup-backend-7d7w.onrender.com/signup'
       const options={
         method:'POST',
         body:formData
