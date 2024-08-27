@@ -1,0 +1,65 @@
+.mainform{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-heading{
+    color: black;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.form{
+    background-color: white;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    padding: 10px;
+}
+
+.inputlabel{
+    color: darkslategrey;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.input{
+    color: darkslategrey;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+    border: 1px lightgrey solid;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 85%;
+}
+
+.button{
+    background-color: darkblue;
+    color: white;
+    height: 45px;
+    width: 100px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
